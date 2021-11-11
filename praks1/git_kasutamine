@@ -1,0 +1,18 @@
+1. Kui git ei ole paigaldatud, paigalda
+su root
+apt install git
+exit
+
+2. Konfigi oma kasutaja alt
+git config --global user.name "Oma nimi"
+git config --global user.email "email"
+git config --global core.editor nano
+
+3. Loo kaust, mille failid vajavad jälgimist
+mkdir skriptimine
+
+4. Mine kausta sisse
+cd skriptimine
+
+5. Pane git käima / tee lokaalne git repositoorium
+git init
