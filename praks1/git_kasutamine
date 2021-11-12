@@ -27,3 +27,12 @@ git status
 
 8. Koostan jälgitavale failile commiti (muudatuse kirjeldus)
 git commit -m "muudatuse kirjeldus"
+
+---------- remote - 9-10 punktid teeme korraks, et tekitada repo ja yhendus ----------
+
+9. loo repo githubis - git@github.com:kasutaja/reponimi.git
+
+10. loo remote yhendus githubi repoga
+git remote add yhendusenimi git@github.com:kasutaja/reponimi.git
+
+git remote -v
