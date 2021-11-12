@@ -10,6 +10,11 @@ echo `date +"%A, %B %d, %Y"`
 #esimese osa lahendus on ka: echo `date +"Täna on %A, %B %d, %Y"`
 
 date +"Kell on %H:%M"
+
+echo
+
+#lihtsalt echo lisab tyhja rea
+
 cal
 
 #date annab sulle kuup2eva, mida saad ise vormistada, cal annab kalendri
