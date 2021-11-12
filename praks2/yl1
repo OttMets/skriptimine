@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#skript peab väljastama sõnumi "Tere, kasutajanimi"
+
+#k2sku echo saab kasutada, et asju öelda
+
+echo -n "Tere, "
+echo -n `whoami | cut -c1 | tr [a-z] [A-Z]`
+echo -n `whoami | cut -c2-`
+echo "!"
+
+#echo manuaal käsuga "man echo"
+
+#-n ytleb, et k2sk ei l2heks uuele reale
+#``m2rgid muudavad k2su tulemuse tekstiks
+#cut -cX lõikab k2sust kas mingi t2he v6i -cX- alates x kuni l6puni
+#tr t6lgib antud k2sus v2ikesed t2hed suurteks
+#pystkriips | on conveyer, laseb sisestada eelmise k2su tulemusi uude k2sku
+
+#kaustas praks2 teen ls -la, et n2ha failide infot, et muuta fail yl1 executableks
+#kirjutan  chmod +x ./yl1
+
+#skripti runimiseks teen "./yl1"
