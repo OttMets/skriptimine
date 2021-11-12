@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#loon kalendri korrektse vorminguga
+
+echo -n "Täna on  "
+echo `date +"%A, %B %d, %Y"`
+
+#esimese osa kirjutan l2bi echo, et harjutada, tegelikult pole echo k2sku vaja
+
+date +"Kell on %H:%M"
+cal
+
+#date annab sulle kuup2eva, mida saad ise vormistada, cal annab kalendri
+#man date annab k2su manuaali
