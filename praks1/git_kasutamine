@@ -36,3 +36,8 @@ git commit -m "muudatuse kirjeldus"
 git remote add yhendusenimi git@github.com:kasutaja/reponimi.git
 
 git remote -v
+
+---------- 11 remote, teeme korduvalt iga commit sooritamise j2rel ----------
+
+11. lykka lokaalsed muudatused githubi
+git push -uf yhendusenimi
