@@ -7,7 +7,7 @@ echo `date +"%A, %B %d, %Y"`
 
 #esimese osa kirjutan l2bi echo, et harjutada, tegelikult pole echo k2sku vaja
 
-#esimese osa lahendus on ka: echo `date +"Täna on %A, %B %d, %Y"`
+#esimese osa lahendus on ka: date +"Täna on %A, %B %d, %Y"
 
 date +"Kell on %H:%M"
 
